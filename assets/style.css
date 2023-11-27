@@ -1,0 +1,33 @@
+:root {
+  --background-color: rgb(236, 236, 236);
+  --text-color: rgb(111, 0, 167);
+  --code-font: "Courier New", Courier, monospace;
+  --header-border: 1px solid white;
+  --card-border: 1px dashed white;
+  --border-radius: 8px;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+  width: 100%;
+}
+
+h1{
+  font-size: 3.4rem;
+}
+
+.card{
+  border: 1px solid #000;
+}
