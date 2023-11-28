@@ -4,17 +4,24 @@
   --code-font: "Courier New", Courier, monospace;
   --header-border: 1px solid white;
   --card-border: 1px dashed white;
-  --border-radius: 8px;
 }
 
 * {
-  font-family: 'Lato', sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
 }
 
-.text-center {
+.header {
   text-align: center;
+}
+
+.header-title {
+  margin: 2rem 1rem 2rem 1rem;
+  font-size: 2.6rem;
+}
+
+.header-text {
+  margin: 1rem;
 }
 
 .grid {
@@ -22,12 +29,16 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;
   width: 100%;
+  gap: 1rem;
 }
 
-h1{
-  font-size: 3.4rem;
-}
-
-.card{
+.card {
   border: 1px solid #000;
+}
+
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 2rem;
 }
