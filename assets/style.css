@@ -40,8 +40,9 @@
   padding: 2rem;
 }
 
-.code-block{
-  min-width: fit-content;
+/* white-space fixed issue with code line not collapsing onto new line */
+.code-block {
+  white-space: pre-wrap; 
 }
 
 /* Footer */
